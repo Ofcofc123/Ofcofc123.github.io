@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ofcofc123 Developer Hub | TakipEt</title>
+  <title>Ofcofc123 Developer Hub | Official Portal</title>
   <style>
     :root {
       --bg: #0b0f19;
       --card-bg: #111827;
       --card-border: #1f2937;
       --primary: #38bdf8;
+      --purple: #818cf8;
       --text: #f3f4f6;
       --text-muted: #9ca3af;
     }
@@ -82,6 +83,9 @@
       background: #252f3f;
       transform: translateY(-2px);
     }
+    .link-card.purple:hover {
+      border-color: var(--purple);
+    }
     .link-info h3 {
       font-size: 15px;
       margin-bottom: 4px;
@@ -95,6 +99,7 @@
       color: var(--primary);
       font-size: 18px;
     }
+    .arrow.purple { color: var(--purple); }
     footer {
       margin-top: 32px;
       font-size: 12px;
@@ -105,13 +110,23 @@
 <body>
   <div class="container">
     <div class="badge">Official Developer Portal</div>
-    <h1>TakipEt – Yaşam & Varlık Asistanı</h1>
-    <p>Mobil uygulama resmi geliştirici ana sayfası ve yetkili doğrulama merkezidir.</p>
+    <h1>Ofcofc123 App Hub</h1>
+    <p>Google Play Store ve mobil uygulamalar resmi geliştirici doğrulama merkezidir.</p>
     
     <div class="links-grid">
+      <!-- LullaNest (Yeni) -->
+      <a href="/bebek-uyku/privacy-policy.html" class="link-card purple">
+        <div class="link-info">
+          <h3>🌙 LullaNest: Bebek Uyku & Gece Lambası</h3>
+          <span>Gizlilik Politikası (Privacy Policy) & Şartlar</span>
+        </div>
+        <span class="arrow purple">&rarr;</span>
+      </a>
+
+      <!-- TakipEt -->
       <a href="/takipet-site/" class="link-card">
         <div class="link-info">
-          <h3>TakipEt Resmi Tanıtım Sitesi</h3>
+          <h3>🚗 TakipEt Resmi Tanıtım Sitesi</h3>
           <span>Uygulama özellikleri ve detayları</span>
         </div>
         <span class="arrow">&rarr;</span>
@@ -119,7 +134,7 @@
 
       <a href="/takipet-site/privacy-policy.html" class="link-card">
         <div class="link-info">
-          <h3>Gizlilik Politikası (Privacy Policy)</h3>
+          <h3>📋 TakipEt Gizlilik Politikası</h3>
           <span>Google Play & KVKK / GDPR Uyumlu Bildirim</span>
         </div>
         <span class="arrow">&rarr;</span>
@@ -127,7 +142,7 @@
 
       <a href="/app-ads.txt" class="link-card">
         <div class="link-info">
-          <h3>Yetkili app-ads.txt Kaydı</h3>
+          <h3>🛡️ Yetkili app-ads.txt Kaydı</h3>
           <span>Google AdMob Reklam Doğrulama Dosyası</span>
         </div>
         <span class="arrow">&rarr;</span>
@@ -135,7 +150,7 @@
     </div>
 
     <footer>
-      &copy; 2026 TakipEt Developer Portal. Tüm hakları saklıdır.
+      &copy; 2026 Ofcofc123 Developer Portal &bull; Tüm hakları saklıdır.
     </footer>
   </div>
 </body>
